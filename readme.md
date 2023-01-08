@@ -15,7 +15,7 @@ My Professional Portfolio
 
 Navigate through the webpage using the navigation bar located at the top of the page. "About Me" directs you to the first block of the page. "My Work" directs you to the demonstrations of work of the author as the "Study Guide" and the "Horiseon First Challenge", the rest of the cards are placeholders. "My Resume" directs you to the author's resume, and "Contact Me" directs you to the last block of the page with the author's contact information.
 
-Link to the deployed app 
+Link to the deployed app https://ginitadavis.github.io/Professional-portfolio-challenge/
 
 ## License
 MIT License
