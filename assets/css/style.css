@@ -1,10 +1,177 @@
+/*Declared a variable for color to use in the code*/
+:root: {
+  --blackFont: black;
+}
+
+/*Set margin, padding*/
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  margin: 0.5 px;
+  padding: 0px gray solid 3px;
+}
+
+/*Added background color to the whole page of violet*/
+html {background-color: #FFCDD2    ;}
+
+/*Section inside the header that contains name, photo and nav bar*/
+.top-container {
+  color: var(--blackFont);
+}
+
+/*Setup position of the name, assigned font type and size*/
+.top-container p {
+  position: absolute;
+  top: 20px;
+  left: 75px;
+  font-family: 'Inspiration', cursive;
+  font-size: 50px;
+}
+
+/*Added image to the background of top-container*/
+.waves {
+  /* Set rules to fill background */
+  min-width: 1024px;
+      
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: 200px;
+      
+  /* Set up positioning */
+  top: 0;
+  left: 0;
+}
+
+/*Setup the positioning of the elements in the navigation bar*/
+nav {
+  display: flex;
+  justify-content: right;
+  position: absolute;
+  top: 135px;
+  right: 40px;
+}
+
+/*Added space between the elements*/
+.navigation {
+  padding: 20px;
+}
+
+/*Took off the decoration to the elements in the navigation bar, assigned color, design, and font type */
+.navigation a {
+  text-decoration: none;
+  color: var(--blackFont);
+  font-weight: bold;
+  font-family: 'Playfair Display', serif;
   
-header {
-    height: 150px;
-    background-image: url('Images/background-header.png');
+}
+
+/*Setup positioning of the photo, made it rounded, and assigned size*/
+.photo img {
+  position: absolute;
+  top: 70px;
+  left: 90px;
+
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+}
+
+/*Assigned background image to the main*/
+main {
+  background-image: url('../../images/test-background.jpg');
+}
+/*First block that contains About Me and the text are part of a flexbox*/
+.block1 {
+  display: flex;
+  /*padding: 20px;*/
+}
+
+/*Formatting the About Me with padding, margin, font type, size, color, and bold*/
+aside h2 {
+  padding: 50px;
+  margin: 50px;
+  font-family: 'Moon Dance', cursive;
+  font-size: x-large;
+  color: var(--blackFont);
+  font-weight: bold;
+}
+
+/*Center the text next to About Me, added padding on the top, margin on the bottom, and font type*/
+.left-container {
+  justify-content: center;
+  padding-top: 80px;
+  margin-bottom: 10%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*Second block that contains the text My Work and the cards is a flexbox*/
+.block2 {
+  display: flex;
+}
+
+/*Section that contains the cards is a flexbox, assigned width, they will wrap when the 
+screen is smaller, they have evenly space in the side between them, and have padding*/
+.products {
+  display: flex;
+  width: 1000px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-bottom: 10px;
+}
+
+/*Text is centered, card have borders with defined width,
+the corners are rounded, there's padding and margin only in the bottom*/
+.card {
+  text-align: center;
+  border-style:solid;
+  border-width: 1px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 5px;
+  height: 200px;
+}
+
+/*Images inside the cards have margin, width, and height defined*/
+.card img {
+  margin: 5px;
+  width: 200px;
+  height: 150px;
+}
+
+/*Second block that contains the text Contact Me and the details is a flexbox*/
+.block3 {
+  display: flex;
+}
+
+/*Section contact is a flexbox, alignment starts on the left, and the items are 
+in the center column of the box*/
+.contact {
+  display: flex;
+  flex-direction: left;
+  align-items: center;
+}
+
+/*Added padding and font type*/
+.contact h3 {  
+  padding: 15px;
+  font-family: 'Playfair Display', serif;
+}
+
+/*Footer has padding, border on the top, is aligned in the center of the screen, 
+assigned font type*/
+footer {
+  padding: 30px;
+  border-top: solid black 3px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+}
+
+/*Items inside card have shadow and change color when hovering*/
+a:hover {
+  color: blueviolet;
+  text-shadow: 1px 1px 2px rgb(235, 192, 255);
+}
+
+.card:hover:hover {
+  color: blueviolet;
+  text-shadow: 1px 1px 2px black;
+  box-shadow: 10 px 10 px black;
 }
