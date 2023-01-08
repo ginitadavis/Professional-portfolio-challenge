@@ -1,59 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- HEAD -->
+
 <head>
     <meta charset="UTF-8" />
+
+    <!-- Linking CSS -->
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>My Professional Portfolio</title>
+
+    <!-- Getting fonts from google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Inspiration&family=Montserrat&family=Moon+Dance&family=Playfair+Display&display=swap"
         rel="stylesheet">
-
 </head>
 
+<!-- HEADER -->
 <header>
+
+    <!-- First box with name, photo, and nav bar -->
     <section class="top-container">
         <img src="./images/background-main.jpg" alt="Waves of purple and pink with a black background" class="waves">
 
+        <!-- Title with name -->
         <p> Gina Davis</p>
 
+        <!-- Nav bar -->
         <nav>
+            <!-- Navigation bar: Section About Me -->
             <section class="navigation">
                 <a href="#aboutme">About Me</a>
             </section>
 
+            <!-- Navigation bar: Section My Work -->
             <section class="navigation">
                 <a href="#mywork">My Work</a>
             </section>
 
+            <!-- Navigation bar: Section My Resume -->
             <section class="navigation">
                 <a href="./assets/Gina Davis Resume.pdf" download="Gina Davis Resume" target="_blank">My Resume</a>
             </section>
 
+            <!-- Navigation bar: Section Contact Me -->
             <section class="navigation">
                 <a href="#contact">Contact me</a>
             </section>
         </nav>
 
+        <!-- Upload the Photo -->
         <section class="photo">
-            <img src="./images/MyPhoto.jpg" alt="Portfolio's owner photo" width="150" height="150">
+            <img src="./images/MyPhoto.jpg" alt="Portfolio's owner photo">
         </section>
 
     </section>
 
 </header>
 
+<!-- MAIN -->
 <main>
 
     <!--This block contains the About Me and the text section-->
     <section class="block1">
+        <!-- Title About Me on the left side -->
         <aside>
             <h2 id="aboutme" class="aboutme">About Me</h2>
         </aside>
 
+        <!-- Text on the center/right side of the screen -->
         <section class="left-container">
             <article>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                 et
@@ -68,43 +86,48 @@
         </section>
     </section>
 
+
     <!--This block contains the My Work and the cards-->
     <section class="block2">
+        <!-- Title My Work on the left side -->
         <aside>
             <h2 id="mywork" class="mywork">My Work</h2>
         </aside>
 
+        <!-- Title of cards and images on the center/right side of the screen -->
         <section class="products">
+
             <figure class="card">
-                <header>Study Guide</header>
+                <header>Study Guide</header> <!-- Card's title-->
                 <a href="https://ginitadavis.github.io/prework-study-guide/" target="_blank">
                     <img src="./images/study-guide.jfif" alt="person writing on a notebook" /></a>
             </figure>
 
             <figure class="card">
-                <header>Horiseon First challenge</header>
+                <header>Horiseon First challenge</header> <!-- Card's title-->
                 <a href="https://ginitadavis.github.io/module-challenge-1/" target="_blank">
-                    <img src="./images/first-challenge.png" alt="Notebook, computer, pens and coffee" /></a>
+                    <img src="./images/first-challenge.png" alt="Notebook, computer, pens and coffee"
+                        class="card-img" /></a>
             </figure>
 
             <figure class="card">
-                <header>Placeholder Work</header>
-                    <img src="./images/Image-holder.png" alt="Image place holder" /></a>
+                <header>Placeholder Work</header> <!-- Card's title-->
+                <img src="./images/Image-holder.png" alt="Image place holder" /></a>
             </figure>
 
             <figure class="card">
-                <header>Placeholder Work</header>
-                    <img src="./images/Image-holder.png" alt="Image place holder" /></a>
+                <header>Placeholder Work</header> <!-- Card's title-->
+                <img src="./images/Image-holder.png" alt="Image place holder" /></a>
             </figure>
 
             <figure class="card">
-                <header>Placeholder Work</header>
-                    <img src="./images/Image-holder.png" alt="Image place holder" /></a>
+                <header>Placeholder Work</header> <!-- Card's title-->
+                <img src="./images/Image-holder.png" alt="Image place holder" /></a>
             </figure>
 
             <figure class="card">
-                <header>Placeholder Work</header>
-                    <img src="./images/Image-holder.png" alt="Image place holder" /></a>
+                <header>Placeholder Work</header> <!-- Card's title-->
+                <img src="./images/Image-holder.png" alt="Image place holder" /></a>
             </figure>
 
         </section>
@@ -113,10 +136,12 @@
 
     <!--This block contains the Contact me and my information-->
     <section class="block3">
+        <!-- Title Contact Me on the left side -->
         <aside>
             <h2 id="contact" class="contact">Contact Me</h2>
         </aside>
 
+        <!-- section with the contact information -->
         <section class="contact">
             <h3>Phone# (865) 679-7770</h3>
             <h3><a href="mailto:gina.vera.davis@gmail.com"> Email </a></h3>
@@ -128,6 +153,7 @@
 
 </main>
 
+<!-- Footer -->
 <footer>
     <h4>Made with ❤️ by Gina Davis</h4>
 </footer>

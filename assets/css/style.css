@@ -1,5 +1,5 @@
 /*Declared a variable for color to use in the code*/
-:root: {
+:root {
   --blackFont: black;
 }
 
@@ -10,7 +10,9 @@
 }
 
 /*Added background color to the whole page of violet*/
-html {background-color: #FFCDD2    ;}
+html {
+  background-color: #FFCDD2;
+}
 
 /*Section inside the header that contains name, photo and nav bar*/
 .top-container {
@@ -30,11 +32,11 @@ html {background-color: #FFCDD2    ;}
 .waves {
   /* Set rules to fill background */
   min-width: 1024px;
-      
+
   /* Set up proportionate scaling */
   width: 100%;
   height: 200px;
-      
+
   /* Set up positioning */
   top: 0;
   left: 0;
@@ -60,7 +62,7 @@ nav {
   color: var(--blackFont);
   font-weight: bold;
   font-family: 'Playfair Display', serif;
-  
+
 }
 
 /*Setup positioning of the photo, made it rounded, and assigned size*/
@@ -78,6 +80,7 @@ nav {
 main {
   background-image: url('../../images/test-background.jpg');
 }
+
 /*First block that contains About Me and the text are part of a flexbox*/
 .block1 {
   display: flex;
@@ -111,7 +114,7 @@ aside h2 {
 screen is smaller, they have evenly space in the side between them, and have padding*/
 .products {
   display: flex;
-  width: 1000px;
+  width: 700px;
   flex-wrap: wrap;
   justify-content: space-evenly;
   padding-bottom: 10px;
@@ -121,7 +124,7 @@ screen is smaller, they have evenly space in the side between them, and have pad
 the corners are rounded, there's padding and margin only in the bottom*/
 .card {
   text-align: center;
-  border-style:solid;
+  border-style: solid;
   border-width: 1px;
   border-radius: 10px;
   padding: 10px;
@@ -150,7 +153,7 @@ in the center column of the box*/
 }
 
 /*Added padding and font type*/
-.contact h3 {  
+.contact h3 {
   padding: 15px;
   font-family: 'Playfair Display', serif;
 }
@@ -168,10 +171,4 @@ footer {
 a:hover {
   color: blueviolet;
   text-shadow: 1px 1px 2px rgb(235, 192, 255);
-}
-
-.card:hover:hover {
-  color: blueviolet;
-  text-shadow: 1px 1px 2px black;
-  box-shadow: 10 px 10 px black;
 }
