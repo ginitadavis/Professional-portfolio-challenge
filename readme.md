@@ -5,7 +5,7 @@
 In the second challenge of the course I had to create a website from scratch, there was no starter code provided. 
 I created a webpage with three main sections. The first section contains the name, picture of the author and the navigation bar. The second section contains information about the author and the professional portfolio. The third section is the contact information.
 
-My motivation was to complete a finish product with a professional look from scratch, while learning to apply concepts learned in class such as the flexbox and css variables.
+My motivation was to complete a finished product with a professional look from scratch, while learning to apply concepts learned in class such as the flexbox and css variables.
 
 
 ## Usage
