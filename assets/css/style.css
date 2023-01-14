@@ -82,7 +82,6 @@ main {
 /*First block that contains About Me and the text are part of a flexbox*/
 .block1 {
   display: flex;
-  /*padding: 20px;*/
 }
 
 /*Formatting the About Me with padding, margin, font type, size, color, and bold*/
@@ -118,6 +117,22 @@ screen is smaller, they have evenly space in the side between them, and have pad
   padding-bottom: 10px;
 }
 
+/*The first card is bigger than the others. Text is centered, card have borders with defined width,
+the corners are rounded, there's padding and margin only in the bottom*/
+.biggerCard {
+  text-align: center;
+  border-style:solid;
+  border-width: 1px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 5px;
+  height: 220px;
+  width: 250px;
+
+  /*Controls the speed of the animation applied to the cards*/
+  transition: transform .2s;
+}
+
 /*Text is centered, card have borders with defined width,
 the corners are rounded, there's padding and margin only in the bottom*/
 .card {
@@ -127,17 +142,24 @@ the corners are rounded, there's padding and margin only in the bottom*/
   border-radius: 10px;
   padding: 10px;
   margin-bottom: 5px;
-  height: 200px;
+  height: 170px;
 
   /*Controls the speed of the animation applied to the cards*/
   transition: transform .2s;
+}
+/*The first card's image is bigger than the others.
+Images inside the cards have margin, width, and height defined*/
+.biggerCard img {
+  margin: 5px;
+  width: 210px;
+  height: 180px;
 }
 
 /*Images inside the cards have margin, width, and height defined*/
 .card img {
   margin: 5px;
-  width: 200px;
-  height: 150px;
+  width: 160px;
+  height: 120px;
 }
 
 /*Second block that contains the text Contact Me and the details is a flexbox*/
@@ -172,6 +194,10 @@ footer {
 a:hover {
   color: blueviolet;
   text-shadow: 1px 1px 2px rgb(235, 192, 255);
+}
+
+.biggerCard:hover:hover {
+  transform: scale(1.5);
 }
 
 /*This signifies the amount of scaling required and helps make the image pointed bigger than the rest */
